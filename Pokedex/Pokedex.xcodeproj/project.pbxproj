@@ -97,12 +97,8 @@
 		6E4B7E2D2397656800F98FCA /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				6E4B7E2E2397656800F98FCA /* AppDelegate.swift */,
-				6E4B7E302397656800F98FCA /* SceneDelegate.swift */,
-				6E4B7E342397656800F98FCA /* Main.storyboard */,
-				6E4B7E372397656C00F98FCA /* Assets.xcassets */,
-				6E4B7E392397656C00F98FCA /* LaunchScreen.storyboard */,
-				6E4B7E3C2397656C00F98FCA /* Info.plist */,
+				6E4B7E5E2398AE6A00F98FCA /* Storyboards */,
+				6E4B7E5F2398AE7300F98FCA /* Resources */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -123,6 +119,26 @@
 				6E4B7E522397656C00F98FCA /* Info.plist */,
 			);
 			path = PokedexUITests;
+			sourceTree = "<group>";
+		};
+		6E4B7E5E2398AE6A00F98FCA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B7E342397656800F98FCA /* Main.storyboard */,
+				6E4B7E392397656C00F98FCA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6E4B7E5F2398AE7300F98FCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B7E2E2397656800F98FCA /* AppDelegate.swift */,
+				6E4B7E302397656800F98FCA /* SceneDelegate.swift */,
+				6E4B7E372397656C00F98FCA /* Assets.xcassets */,
+				6E4B7E3C2397656C00F98FCA /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
