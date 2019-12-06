@@ -97,6 +97,11 @@
 		6E4B7E2D2397656800F98FCA /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				6E4B7E64239A052700F98FCA /* Model */,
+				6E4B7E63239A051800F98FCA /* Model Controller */,
+				6E4B7E62239A050F00F98FCA /* Views */,
+				6E4B7E61239A050700F98FCA /* View Controllers */,
+				6E4B7E60239A04FE00F98FCA /* Operations */,
 				6E4B7E5E2398AE6A00F98FCA /* Storyboards */,
 				6E4B7E5F2398AE7300F98FCA /* Resources */,
 			);
@@ -139,6 +144,41 @@
 				6E4B7E3C2397656C00F98FCA /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E4B7E60239A04FE00F98FCA /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		6E4B7E61239A050700F98FCA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6E4B7E62239A050F00F98FCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E4B7E63239A051800F98FCA /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		6E4B7E64239A052700F98FCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
